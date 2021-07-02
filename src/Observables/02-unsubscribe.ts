@@ -37,7 +37,6 @@ subs.add(subs2)
     .add(subs3);
 
 setTimeout(()=>{ 
-    subs.unsubscribe()
     console.log("completado");
 
 },3000)
